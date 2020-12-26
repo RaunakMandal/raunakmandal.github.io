@@ -8,7 +8,8 @@ $(document).ready(function(){
     // Changing Text Animation
     var type = new Typed(".changing", {
         strings: ["Android Developer", "Writer", "Designer", "Freelancer"],
-        typespeed: 4000,
+        typespeed: 100,
+        backspeed:60,
         loop: true
     });
 });
